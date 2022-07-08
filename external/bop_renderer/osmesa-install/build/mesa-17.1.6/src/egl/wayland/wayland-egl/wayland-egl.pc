@@ -1,0 +1,11 @@
+prefix=/home/lele/Codes/epos/repository/external/osmesa
+exec_prefix=${prefix}
+libdir=${exec_prefix}/lib
+includedir=${prefix}/include
+
+Name: wayland-egl
+Description: Mesa wayland-egl library
+Version: 17.1.6
+Requires: wayland-client
+Libs: -L${libdir} -lwayland-egl
+Cflags: -I${includedir}

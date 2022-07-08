@@ -1,0 +1,30 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+../include/llvm/Demangle/Demangle.h
+cstddef
+-
+
+/home/lele/Codes/epos/repository/external/bop_renderer/osmesa-install/build/llvm-4.0.1.src/lib/Demangle/ItaniumDemangle.cpp
+llvm/Demangle/Demangle.h
+/home/lele/Codes/epos/repository/external/bop_renderer/osmesa-install/build/llvm-4.0.1.src/lib/Demangle/llvm/Demangle/Demangle.h
+algorithm
+-
+cctype
+-
+cstdlib
+-
+cstring
+-
+numeric
+-
+string
+-
+vector
+-
+

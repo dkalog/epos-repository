@@ -1,0 +1,9 @@
+prefix=/home/lele/Codes/epos/repository/external/osmesa
+exec_prefix=${prefix}
+libdir=${exec_prefix}/lib
+includedir=${prefix}/include
+
+Name: xatracker
+Description: Xorg Gallium3D acceleration library
+Version: 2.3.0
+Libs: -L${libdir} -lxatracker

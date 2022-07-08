@@ -1,0 +1,9 @@
+prefix=/home/lele/Codes/epos/repository/external/osmesa
+exec_prefix=${prefix}
+libdir=${exec_prefix}/lib
+includedir=${prefix}/include
+
+Name: windowsdriproto
+Description: Windows-DRI extension headers
+Version: 1.0.0
+Cflags: -I${includedir}

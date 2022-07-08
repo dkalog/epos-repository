@@ -1,0 +1,38 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/lele/Codes/epos/repository/external/bop_renderer/3rd/rply/rply.c
+stdio.h
+-
+ctype.h
+-
+assert.h
+-
+string.h
+-
+limits.h
+-
+float.h
+-
+stdarg.h
+-
+stdlib.h
+-
+stddef.h
+-
+rply.h
+/home/lele/Codes/epos/repository/external/bop_renderer/3rd/rply/rply.h
+rplyfile.h
+/home/lele/Codes/epos/repository/external/bop_renderer/3rd/rply/rplyfile.h
+stdint.h
+-
+
+/home/lele/Codes/epos/repository/external/bop_renderer/3rd/rply/rply.h
+
+/home/lele/Codes/epos/repository/external/bop_renderer/3rd/rply/rplyfile.h
+
